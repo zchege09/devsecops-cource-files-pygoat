@@ -12,7 +12,7 @@ jobs:
    - name: Set your Python
      uses: actions/setup-python@v2
      with:
-       python-version: 3.8
+       python-version: 3.13
    - name: Install Bandit
      run: pip install bandit
    - name: Run Bandit Scan
